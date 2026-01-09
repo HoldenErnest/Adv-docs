@@ -4,3 +4,8 @@ These are used by Quests to give the user a text based dialogue box when quest c
 
 ## Uses
  - DialogueUI
+
+
+### References
+ - [Stats](./Stats.md)
+ - [Quest](./Quest.md)

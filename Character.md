@@ -18,5 +18,10 @@ A character is an entity that moves around the world and interacts with it if th
  - `Description`
  - `Team` - Characters on the same team wont hurt eachother.
 
+
+
 ### References
+ - [Stats](./Stats.md)
+ - [Player](./Player.md)
  - [README](./README.md)
+ - [Skill](./Skill.md)

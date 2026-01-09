@@ -8,3 +8,9 @@ This is an interface that tells a character how to act and when
 
 ## Uses
  -
+
+
+### References
+ - [Stats](./Stats.md)
+ - [Character](./Character.md)
+ - [Skill](./Skill.md)

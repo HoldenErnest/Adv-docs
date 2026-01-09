@@ -4,3 +4,7 @@ This controls the entire flow of the game. Completing certain quests determines 
 
 ## Uses
  - [Dialogue](./Dialogue.md)
+
+
+### References
+ - [Dialogue](./Dialogue.md)

@@ -22,5 +22,7 @@ You cannot spec into these stats:
     - This value changes when killing others with high or low goodness.
 
 
+
 ### References
+ - [DamageTypes](./DamageTypes.md)
  - [Equipment](./Equipment.md)

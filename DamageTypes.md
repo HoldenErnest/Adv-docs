@@ -26,3 +26,7 @@ A Sword with a base damage of 4:
 
 The sender character has 100 strength so outgoing damage is ?40? physical damage
 The reciever character has 25% resist. With a 10% varriance of that 30 damage, the final damage done will be between 27-33
+
+
+### References
+ - [Stats](./Stats.md)

@@ -8,3 +8,12 @@ This represents all usable actions a given [Character](./Character.md) can take.
 ## Properties
  - Cooldown
  - TODO
+
+
+### References
+ - [Stats](./Stats.md)
+ - [Character](./Character.md)
+ - [Effect](./Effect.md)
+ - [DamageTypes](./DamageTypes.md)
+ - [README](./README.md)
+ - [Controller](./Controller.md)
