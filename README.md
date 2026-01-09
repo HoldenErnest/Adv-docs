@@ -10,7 +10,7 @@ These are all the docs for the systems for the adventure game
  - [Items](./Item.md)
  - Quests
  - Dialogue
- - Spells
+ - [Skill](./Skill.md)
 
 ## Low Level Systems
  - 
