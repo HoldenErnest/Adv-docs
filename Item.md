@@ -15,7 +15,7 @@ An Item is essentially just information
 
 
 
-### Refrences
+### References
  - [Inventory](./Inventory.md)
  - [README](./README.md)
  - [Equipment](./Equipment.md)

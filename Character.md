@@ -11,5 +11,5 @@ A character is an entity that moves around the world and interacts with it if th
 
 
 
-### Refrences
+### References
  - [README](./README.md)

@@ -4,7 +4,7 @@ Equipment is an [Item](./Item.md) that can be equipped to a character. This can 
 
 
 
-### Refrences
+### References
  - [Stats](./Stats.md)
  - [Model](./Model.md)
  - [Item](./Item.md)

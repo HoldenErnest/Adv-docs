@@ -10,5 +10,5 @@ This saves all *savable* characters. This includes the player
 
 
 
-### Refrences
+### References
  - [SaveAll](./SaveAll.md)

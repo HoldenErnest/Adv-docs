@@ -2,5 +2,5 @@
 
 
 
-### Refrences
+### References
  - [Equipment](./Equipment.md)

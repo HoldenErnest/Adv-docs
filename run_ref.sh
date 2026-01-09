@@ -16,7 +16,7 @@ find "$SEARCH_DIR" -type f | while read file_path; do
 
     # Remove all old refrences
     echo "removing $filename refrences"
-    sed -n '/### Refrences/q;p' "$filename" > tmp
+    sed -n '/### References/q;p' "$filename" > tmp
     perl -0777 -pi -e 's/\n{2,}$/\n/gs' tmp
     cat tmp > "$filename"
 done
@@ -35,7 +35,7 @@ find "$SEARCH_DIR" -type f | while read file_path; do
     # If any files contain this filename, print them
     if [ -n "$files_with_match" ]; then
         echo -e "\n\n" >> $filename
-        echo "### Refrences" >> $filename
+        echo "### References" >> $filename
         for ref in `echo $files_with_match`; do
             echo $ref
             refn=${ref#??}

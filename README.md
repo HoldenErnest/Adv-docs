@@ -17,7 +17,7 @@ These are all the docs for the systems for the adventure game
 
 
 
-### Refrences
+### References
  - [SaveAll](./SaveAll.md)
  - [Character](./Character.md)
  - [Item](./Item.md)

@@ -7,5 +7,5 @@ The look of a character. Most of this look is set by [Equipment](./Equipment.md)
 
 
 
-### Refrences
+### References
  - [Character](./Character.md)
