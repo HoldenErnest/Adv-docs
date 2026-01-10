@@ -8,7 +8,7 @@ A character is an entity that moves around the world and interacts with it if th
  - [Controller](./Controller.md)
  - [Inventory](./Inventory.md)
  - [Stats](./Inventory.md)
- - [Skill](./Skill.md)
+ - [Skillbook](./Skillbook.md)
 
 
 ## Properties
@@ -21,6 +21,7 @@ A character is an entity that moves around the world and interacts with it if th
 
 
 ### References
+ - [Skillbook](./Skillbook.md)
  - [Stats](./Stats.md)
  - [Player](./Player.md)
  - [README](./README.md)
