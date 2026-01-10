@@ -2,12 +2,17 @@
 
 This is an interface that tells a character how to act and when
 
+
+Types of generic inputs are:
+ - Movement
+ - Skill Use
+
 ## Extends
  - AIController
  - PlayerController
 
 ## Uses
- -
+ - character.[Skillbook](./Skillbok.md)
 
 
 
