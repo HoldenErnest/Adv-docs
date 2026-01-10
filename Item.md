@@ -1,17 +1,25 @@
 # Item
 
-An Item is essentially just information
+An Item is just information. This structure ONLY HOLDS info that can be changed.
 
 ## Extends
  - [Equipment](./Equipment.md)
- - [Consumables](./Consumables.md)
+ - [Consumable](./Consumable.md)
 
 ## Uses
+ - [ItemLookup.md](./ItemLookup.md)
 
-## Components
+## Properties
  - item_id
+ - itemName - Item "nickname" maybe. This value can be changed
  - amount
- - dropChance
+ - dropChance - different enemies can have different drop chances for these.
+
+## Immutable Properties (stored in the [lookupTable](./ItemLookup.md))
+ - defaultName
+ - desc
+ - icon
+ - consumeEffect
 
 
 

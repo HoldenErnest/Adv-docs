@@ -8,7 +8,7 @@ These are all the docs for the systems for the adventure game
 ## Mid Level Systems
  - [Characters](./Character.md)
  - [Items](./Item.md)
- - Quests
+ - [Questbook](./Questbook.md)
  - Dialogue
  - [Skill](./Skill.md)
 
