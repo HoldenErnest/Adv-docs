@@ -7,7 +7,8 @@ REASON:
 
 
 ### Data Structure:
-    Unsure how this data structure will look ATM
+
+Unsure how this data structure will look ATM
  - Since it has ItemIDs it should ALWAYS SORT on init and use binary searches
 
 

@@ -8,8 +8,8 @@ Types of generic inputs are:
  - Skill Use
 
 ## Extends
- - AIController
- - PlayerController
+ - [AIController](./AIController.md)
+ - [PlayerController](./PlayerController.md)
 
 ## Uses
  - character.[Skillbook](./Skillbok.md)
