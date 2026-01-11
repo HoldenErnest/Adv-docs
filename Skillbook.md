@@ -7,6 +7,8 @@ A skillbook is like an "inventory" for a characters spells. Any spells from your
  - [equipSkills](./Skill.md) Array
 
 
+
 ### References
  - [Character](./Character.md)
+ - [SkillbookUI](./SkillbookUI.md)
  - [Equipment](./Equipment.md)

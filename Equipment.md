@@ -26,5 +26,6 @@ Maybe I need to figure out [ReforgeSystem](ReforgeSystem.md) out first
 ### References
  - [Skillbook](./Skillbook.md)
  - [Stats](./Stats.md)
+ - [ItemLookup](./ItemLookup.md)
  - [Model](./Model.md)
  - [Item](./Item.md)

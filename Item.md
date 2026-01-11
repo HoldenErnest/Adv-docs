@@ -24,6 +24,7 @@ An Item is just information. This structure ONLY HOLDS info that can be changed.
 
 
 ### References
+ - [ItemLookup](./ItemLookup.md)
  - [Inventory](./Inventory.md)
  - [README](./README.md)
  - [Equipment](./Equipment.md)

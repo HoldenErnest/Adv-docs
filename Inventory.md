@@ -12,5 +12,7 @@ Also determines which things are equipped for the Character.
 ## Properties
  - [allItems](./Item.md) Array
 
+
+
 ### References
  - [Character](./Character.md)

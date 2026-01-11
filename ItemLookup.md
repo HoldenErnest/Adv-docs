@@ -21,3 +21,10 @@ JSON:
     {itemID: 3, defaultName: "Fire Axe", desc: "molten axe of Bill", icon:"fire_axe.png", }
 ]}
 ```
+
+
+
+### References
+ - [Item](./Item.md)
+ - [Consumable](./Consumable.md)
+ - [Equipment](./Equipment.md)
