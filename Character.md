@@ -26,4 +26,6 @@ A character is an entity that moves around the world and interacts with it if th
  - [Player](./Player.md)
  - [PlayerUI](./PlayerUI.md)
  - [README](./README.md)
+ - [AIController](./AIController.md)
+ - [CharacterState](./CharacterState.md)
  - [Skill](./Skill.md)

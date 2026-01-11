@@ -9,3 +9,7 @@ Manage the inputs a player would put in
  - RightMouse - interact
  - LeftALT - quick stat sheet / Debug?
  - TAB - inventory/CharacterSheet/Quests/Spellbook
+
+
+### References
+ - [Controller](./Controller.md)

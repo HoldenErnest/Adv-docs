@@ -17,5 +17,6 @@ All these gear pieces are of type: REF Equipment
     - equip gear type is determined. remove old gear if necessary (since its refrence, set it to not equipped)
 
 
+
 ### References
  - [Inventory](./Inventory.md)
