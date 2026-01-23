@@ -8,7 +8,7 @@ Equipping an Equip may also give you a skill. This skill is put in your [Skillbo
  - `equipped` - determines if this is equipped. Make sure to update the equipSystem though
 
 ## Immutable Properties (stored in the [lookupTable](./ItemLookup.md))
- - gearType - type of gear this can be
+ - gearType - type of gear this can be (TODO: what gear types are there)
  - addSkills: Array of skillnames
 
 

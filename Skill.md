@@ -11,7 +11,7 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
 
 ## Properties
  - skillName
- - [damageType](./DamageTypes.md)
+ - [skillType](./SkillTypes.md)
  - baseDamage
  - manaCost
  - maxCastRange

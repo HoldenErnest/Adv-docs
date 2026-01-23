@@ -9,20 +9,21 @@ You can spec into these stats using attribute points:
  - `Constitution` - Max health
  - `Strength` - increase in physical damage, 
  - `Dexterity` - small increase in speed as well as a small increase in damage
- - `Intelligence` - increase in magic damage. Can also affect [Dialogue](./Dialogue.md)
- - `Evasion`
+ - `Intelligence` - increase in any magic type damage. Can also affect [Dialogue](./Dialogue.md)
+ - `Evasion` - polynomial decrease to each points effect? 50% evade at 50 points?
  - `Speed` - affects [Controller](./Controller.md) speed value. `weight` can also lower this depending on `strength`
 
 You cannot spec into these stats:
  - `XP` - total XP determines `Level` which determines `AttributePoints`
  - `Armor` - % resist [Skill](./Skill.md) damage
- - `ccResist` - % chance this will MISS. As psych doesnt do damage.
  - `weight` - total weight of your gear. Higher carryweight slows you down
- - `goodness`? - How "Good" is this character. from 0.00-1.00
-    - This value changes when killing others with high or low goodness.
+ - `moral`? - a [MoralScale](./MoralScale.md) property
 
+# TODO: separate "external stats"
+# anything that can be added/removed easily should be separated.
+# Equippable and buffs need a structure to hold them in. NO XP
 
 
 ### References
- - [DamageTypes](./DamageTypes.md)
+ - [SkillTypes](./SkillTypes.md)
  - [Equipment](./Equipment.md)

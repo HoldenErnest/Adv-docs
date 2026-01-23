@@ -1,4 +1,4 @@
-# DamageTypes
+# SkillTypes
 
 When an attack is made from a [Skill](./Skill.md) on a character the damage needs to be calculated.
 
@@ -7,19 +7,19 @@ Incoming damage is calculated by the recievers resistences. incoming damage is a
 
 ## Types
  - Physical - resisted by the characters armor
- - Magical - Magic damage cannot be resisted
- - Necrotic or Faith - These damage types are opposites of eachother and are resisted by a characters `goodness` [Stat](./Stats.md)
-    - 0% goodness:
-        - 0% necro damage taken
-        - 0% faith healing taken
-    - 50% goodness(default):
-        - 150% necro damage taken
-        - 100% faith healing taken
-    - 100% goodness:
-        - 200% necro damage taken
-        - 200% faith healing taken
+ - Magical:
+    - Gas
+    - Liquid
+    - Solid
+    - Healing - These damage types are opposites of eachother and are purely based off a Characters `moral` [Stat](./Stats.md)
+        - 0% moral:
+            - +10% damage for all skills (maybe)
+            - 0% Healing taken
+        - 50% moral(default):
+            - 100% Healing taken
+        - 100% moral:
+            - 200% Healing taken
 
- - CC - no damage. 
 
 ### Examples
 A Sword with a base damage of 4:
