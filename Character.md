@@ -12,6 +12,7 @@ A character is an entity that moves around the world and interacts with it if th
 
 
 ## Properties
+ - CharacterID
  - `savable`:bool - is this a Character important enough to persist (this value should never be changed. Its set on creation)
  - `Name`
  - `Title`

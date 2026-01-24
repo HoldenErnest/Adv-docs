@@ -1,11 +1,11 @@
 # Dialogue
 
-These are used by Quests to give the user a text based dialogue box when quest conditions are met
+These are how [Quests](./Quest.md) progress when quest conditions are met
 
 ## Uses
  - DialogueUI
 
-
+#TODO finish going through dialogue, from speaker to quest stuff to talking. however it works
 
 ### References
  - [Stats](./Stats.md)

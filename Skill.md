@@ -10,6 +10,7 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
  - 
 
 ## Properties
+ - skillID - PRE ASSIGNED
  - skillName
  - [skillType](./SkillTypes.md)
  - baseDamage
