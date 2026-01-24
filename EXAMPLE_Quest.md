@@ -19,3 +19,11 @@ You now have the quest "Kill Bats", the process repeats.
 
 except instead of interacting with speakers. Killing ANY Character
 will result in that chain
+
+
+
+### References
+ - [Quest](./Quest.md)
+ - [QuestRequirement](./QuestRequirement.md)
+ - [Speaker](./Speaker.md)
+ - [README](./README.md)

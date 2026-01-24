@@ -7,3 +7,8 @@ A structure for a reward given after completing a [Quest](./Quest.md)
  - ammount
  - rewardType = "xp"; // (skill), (xp), (item), (remove)
  - redeem()
+
+
+
+### References
+ - [Quest](./Quest.md)

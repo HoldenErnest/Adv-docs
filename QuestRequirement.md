@@ -16,3 +16,9 @@ They define how the quest actually can be completed.
 text output UI example:
 
 `"Item quota for Quest ({current} / {total} : completed by {type}ing {objectiveName}s"` or something
+
+
+
+### References
+ - [Quest](./Quest.md)
+ - [EXAMPLE_Quest](./EXAMPLE_Quest.md)

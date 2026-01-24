@@ -31,4 +31,5 @@ The reciever character has 25% resist. With a 10% varriance of that 30 damage, t
 
 ### References
  - [Stats](./Stats.md)
+ - [DamageResist](./DamageResist.md)
  - [Skill](./Skill.md)

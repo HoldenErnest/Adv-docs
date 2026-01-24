@@ -28,7 +28,7 @@ find "$SEARCH_DIR" -type f | while read file_path; do
     if [[ $filename != *.md ]]; then
         continue
     fi
-    files_with_match=$(grep -rslF --exclude-dir=".git" --exclude="$filename" "$filename" "$SEARCH_DIR")
+    files_with_match=$(grep -rslF --exclude-dir=".git" --exclude="$filename" "/$filename" "$SEARCH_DIR")
 
     
 

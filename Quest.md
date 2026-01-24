@@ -18,6 +18,11 @@ This controls the entire flow of the game. Completing certain quests determines 
  - itemsComplete - Amount of items you completed
 
 
+
 ### References
  - [Dialogue](./Dialogue.md)
+ - [QuestRequirement](./QuestRequirement.md)
  - [Questbook](./Questbook.md)
+ - [QuestReward](./QuestReward.md)
+ - [EXAMPLE_Quest](./EXAMPLE_Quest.md)
+ - [MoralScale](./MoralScale.md)

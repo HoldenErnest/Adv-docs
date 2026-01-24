@@ -30,3 +30,4 @@ A character is an entity that moves around the world and interacts with it if th
  - [AIController](./AIController.md)
  - [CharacterState](./CharacterState.md)
  - [Skill](./Skill.md)
+ - [MoralScale](./MoralScale.md)

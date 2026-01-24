@@ -24,6 +24,8 @@ You cannot spec into these stats:
 # Equippable and buffs need a structure to hold them in. NO XP
 
 
+
 ### References
- - [SkillTypes](./SkillTypes.md)
+ - [Reforge](./Reforge.md)
  - [Equipment](./Equipment.md)
+ - [SkillTypes](./SkillTypes.md)

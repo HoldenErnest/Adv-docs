@@ -31,6 +31,7 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
  - [Stats](./Stats.md)
  - [Character](./Character.md)
  - [Effect](./Effect.md)
- - [DamageTypes](./DamageTypes.md)
+ - [QuestReward](./QuestReward.md)
  - [README](./README.md)
  - [Controller](./Controller.md)
+ - [SkillTypes](./SkillTypes.md)

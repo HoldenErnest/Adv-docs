@@ -28,4 +28,5 @@ Maybe I need to figure out [ReforgeSystem](ReforgeSystem.md) out first
  - [Stats](./Stats.md)
  - [ItemLookup](./ItemLookup.md)
  - [Model](./Model.md)
+ - [Reforge](./Reforge.md)
  - [Item](./Item.md)

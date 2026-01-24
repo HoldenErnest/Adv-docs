@@ -13,3 +13,10 @@ Interacting with this object will send [Dialogue](./Dialogue.md) to the [Dialogu
 
 ### Dialogue options:
  - Default response list
+
+
+
+### References
+ - [Dialogue](./Dialogue.md)
+ - [Questbook](./Questbook.md)
+ - [EXAMPLE_Quest](./EXAMPLE_Quest.md)

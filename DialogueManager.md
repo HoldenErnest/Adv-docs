@@ -4,3 +4,9 @@ Manages any incoming dialogue (for example so multiple dialogues arent run at th
 
 # Uses
  - [Dialogue](./Dialogue.md)
+
+
+
+### References
+ - [Dialogue](./Dialogue.md)
+ - [Speaker](./Speaker.md)

@@ -25,3 +25,10 @@ Close matching function representing amount lost:
     
 
  - Completing main [Quests](./Quest.md) in certain ways
+
+
+
+### References
+ - [Stats](./Stats.md)
+ - [Character](./Character.md)
+ - [Quest](./Quest.md)

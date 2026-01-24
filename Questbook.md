@@ -15,7 +15,9 @@ This holds all active, complete, and other quests for the player.
  - Interact with a [Speaker](./Speaker.md) that completes an active quest
 
 
+
 ### References
  - [Quest](./Quest.md)
  - [Player](./Player.md)
+ - [QuestUI](./QuestUI.md)
  - [README](./README.md)

@@ -9,3 +9,8 @@ The damage resistence calculation
  - Skill Types Equipped. (more skills of the same type increase your resist against it)
  - Equipment
     - equips have hard coded resistence values built into some of them. These increase with [Reforges](./Reforge.md)
+
+
+
+### References
+ - [Reforge](./Reforge.md)

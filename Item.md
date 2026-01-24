@@ -22,8 +22,10 @@ An Item is just information. This structure ONLY HOLDS info that can be changed.
  - consumeEffect
 
 
+
 ### References
  - [ItemLookup](./ItemLookup.md)
  - [Inventory](./Inventory.md)
+ - [QuestReward](./QuestReward.md)
  - [README](./README.md)
  - [Equipment](./Equipment.md)

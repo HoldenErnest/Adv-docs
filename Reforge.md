@@ -17,3 +17,9 @@ The basic idea is when you reforge an [Equipment](./Equipment.md), adds a `refor
     - speed, con, evasion, int, str, ETC..
 
 basic reforge stats:
+
+
+
+### References
+ - [Stats](./Stats.md)
+ - [DamageResist](./DamageResist.md)
