@@ -19,9 +19,9 @@ You cannot spec into these stats:
  - `weight` - total weight of your gear. Higher carryweight slows you down
  - `moral`? - a [MoralScale](./MoralScale.md) property
 
-# TODO: separate "external stats"
-# anything that can be added/removed easily should be separated.
-# Equippable and buffs need a structure to hold them in. NO XP
+#TODO: separate "external stats"
+#anything that can be added/removed easily should be separated.
+#Equippable and buffs need a structure to hold them in. NO XP
 
 
 
