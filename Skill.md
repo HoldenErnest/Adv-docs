@@ -6,6 +6,9 @@ cast to any specified location that is between min and max range distance from t
 
 Once cast, the prefab is spawned at this location. This prefab inherits the damage and effects. 
 
+## Extends
+ - TODO: should this be extended into things like "SummonSkill", "MovementSkill", "ProjectileSkill" "AOESkill" "BuffSkill"
+
 ## Using
  - 
 
