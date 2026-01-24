@@ -10,16 +10,15 @@ An Item is just information. This structure ONLY HOLDS info that can be changed.
  - [ItemLookup.md](./ItemLookup.md)
 
 ## Properties
- - item_id
  - itemName - Item "nickname" maybe. This value can be changed
  - amount
  - dropChance - different enemies can have different drop chances for these.
 
 ## Immutable Properties (stored in the [lookupTable](./ItemLookup.md))
+ - item_id
  - defaultName
  - desc
  - icon
- - consumeEffect
 
 
 

@@ -11,6 +11,7 @@ All these gear pieces are of type: REF Equipment
  - Chest
  - Pants
  - Boots
+ - Weapon
 
 ## Functions
  - Equip(ref Equipment)

@@ -2,6 +2,8 @@
 
 basically just a big lookup table for an items information given its `itemID`
 
+Look at the [Database](./Database.md). YES its stored here.
+
 REASON:
  - this data is seperated from [Item](./Item.md). Anything that can change is put in Item, anything that ALWAYS stays the same will be in this lookup. This will make saving easy as well as not have so much load on passing Items around.
 
