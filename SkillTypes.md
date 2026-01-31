@@ -11,7 +11,7 @@ Incoming damage is calculated by the recievers resistences. incoming damage is a
     - Gas
     - Liquid
     - Solid
-    - Healing - These damage types are opposites of eachother and are purely based off a Characters `moral` [Stat](./Stats.md)
+    - Healing - These damage types are opposites of eachother and are purely based off a Characters `moral` [StatsManager](./StatsManager.md)
         - 0% moral:
             - +10% damage for all skills (maybe)
             - 0% Healing taken
@@ -30,6 +30,6 @@ The reciever character has 25% resist. With a 10% varriance of that 30 damage, t
 
 
 ### References
- - [Stats](./Stats.md)
+ - [StatsManager](./StatsManager.md)
  - [DamageResist](./DamageResist.md)
  - [Skill](./Skill.md)

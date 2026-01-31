@@ -7,7 +7,7 @@ A character is an entity that moves around the world and interacts with it if th
  - [Model](./Model.md)
  - [Controller](./Controller.md)
  - [Inventory](./Inventory.md)
- - [Stats](./Inventory.md)
+ - [StatsManager](./StatsManager.md)
  - [Skillbook](./Skillbook.md)
 
 

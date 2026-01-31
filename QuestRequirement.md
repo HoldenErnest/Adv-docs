@@ -5,7 +5,7 @@ A number of these can be given to any given [Quest](./Quest.md).
 They define how the quest actually can be completed.
 
 ## Properties
- - type - (kill objective, collect objective, talk objective) #TODO: is this all of them?
+ - type - (kill objective, collect objective, talk objective) #TODO: is this all of them? #TODO: move these to their own objects?
  - objectiveID - ID of the Character or Item
  - total - total objectives needed
  - current - current number of this requirement completed. when current = total, this requirement is complete

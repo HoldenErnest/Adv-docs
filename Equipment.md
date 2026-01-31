@@ -1,11 +1,12 @@
 # Equipment
 
-Equipment is an [Item](./Item.md) that can be equipped to a character. This can change their [Stats](./Stats.md). This can also change their appearance
+Equipment is an [Item](./Item.md) that can be equipped to a character. This can change their [StatsManager](./StatsManager.md). This can also change their appearance
 
 Equipping an Equip may also give you a skill. This skill is put in your [Skillbook](./Skillbook.md)
 
 ## Properties
  - `equipped` - determines if this is equipped. Make sure to update the equipSystem though
+ - [Stats](./Stats.md)
 
 ## Immutable Properties (stored in the [lookupTable](./ItemLookup.md))
  - gearType - type of gear this can be (TODO: what gear types are there)
@@ -19,13 +20,12 @@ Problem:
 Possible Solutions:
  - Equip reforges can only increase damage multiplier for all skills.
 
-Maybe I need to figure out [ReforgeSystem](ReforgeSystem.md) out first
 
 
 
 ### References
  - [Skillbook](./Skillbook.md)
- - [Stats](./Stats.md)
+ - [StatsManager](./StatsManager.md)
  - [ItemLookup](./ItemLookup.md)
  - [Model](./Model.md)
  - [Reforge](./Reforge.md)

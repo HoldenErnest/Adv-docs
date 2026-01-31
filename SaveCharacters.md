@@ -3,7 +3,8 @@
 This saves all *savable* characters. This includes the player
 
 ## Using
- - SaveInventory
+ - SaveInventory (this also saves any changed equipments)
+ - Save Invested LevelStat
 
 ### Things to save
  - position

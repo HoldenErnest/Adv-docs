@@ -3,9 +3,8 @@
 The basic idea is when you reforge an [Equipment](./Equipment.md), adds a `reforge level` each time.
 
 
-## Using
+## Uses
  - [Equipment](./Equipment.md)
- - a characters [Stats](./Stats.md)
 
 ### Reforge levels
  - Every reforge level increases the base stats on this Equipment:
