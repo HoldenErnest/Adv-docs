@@ -7,7 +7,12 @@ cast to any specified location that is between min and max range distance from t
 Once cast, the prefab is spawned at this location. This prefab inherits the damage and effects. 
 
 ## Extends
- - TODO: should this be extended into things like "SummonSkill", "MovementSkill", "ProjectileSkill" "AOESkill" "BuffSkill"
+ - MoveSkill - anything that moves the caster. (maybe calls a different skill at the end of its durration)
+ - ProjSkill - summons a specific "projectile" module object
+ - TargetedSkill - activate any Skill as a specific user.
+ - BuffSkill - gives an effect to this caster.
+ - SimpleSkill - create an aoe burst at a. given location.
+ - SummonSkill - summons anything non simple, (in world objects, charcters, etc)
 
 ## Using
  - 
@@ -16,16 +21,10 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
  - skillID - PRE ASSIGNED
  - skillName
  - [skillType](./SkillTypes.md)
- - baseDamage
  - manaCost
- - maxCastRange
- - minCastRange
- - despawnTime
- - attackRadius
- - levelReq - min level required to use this skill
- - [setEffects](./Effect.md) Array
+ - levelReq - min level required to use this skill !! TODO make sure targeted casting still works (change levelReq of casted skill to 0?)
  - Cooldown
- - projectileSpeed - if this is non zero, the skill is a projectile. and will move to max
+ - EffectAnim? - TODO
 
 
 
