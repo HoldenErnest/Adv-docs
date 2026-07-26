@@ -11,8 +11,11 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
  - ProjSkill - summons a specific "projectile" module object
  - TargetedSkill - activate any Skill as a specific user.
  - BuffSkill - gives an effect to this caster.
- - SimpleSkill - create an aoe burst at a. given location.
+ - SimpleSkill - create an aoe burst at a given location.
  - SummonSkill - summons anything non simple, (in world objects, charcters, etc)
+
+ #TODO: flesh this out ^ . make sure you can create AOE DOT spells like healing circle or poison circle. Maybe Targeted DOT as well? fireballs raining on you.
+ #I guess a difference between effects and skills are if you want to see the icon on your "statuses"
 
 ## Using
  - 
@@ -20,6 +23,8 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
 ## Properties
  - skillID - PRE ASSIGNED
  - skillName
+ - #TODO Delay?  --- cast fireball, impact circle shows up, 1 second later damage comes in
+ - description - something maybe when hovering to show high level idea of the skill. Also your Damage numbers (use escape codes for these)
  - [skillType](./SkillTypes.md)
  - manaCost
  - levelReq - min level required to use this skill !! TODO make sure targeted casting still works (change levelReq of casted skill to 0?)

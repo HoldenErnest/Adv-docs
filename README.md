@@ -4,6 +4,7 @@ These are all the docs for the systems for the adventure game
 ## High Level Systems
  - Map
  - [Reforge](./Reforge.md)
+ - [CombatSystem](./CombatSystem.md)
 
 ## Mid Level Systems
  - [Characters](./Character.md)
