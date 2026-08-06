@@ -6,9 +6,11 @@ Some of these properties you can 'spec' into using Attribute points which are gi
 ## Properties
  - currentStats -- [Stats](./Stats.md) These are ALL the current stats for a given character
     - This changes by "external forces" passing in [Stats](./Stats.md) of their own, which increases or decreases this.
-
+ - [LevelStat](./LevelStat.md)
+ - [HealthStat](./HealthStat.md)
 
 ## Used by
+- [Character](./Character.md)
 - [EquipSystem](./EquipSystem.md)
 - [Effect](./Effect.md) -- These are not as important since they are temporary
 - [LevelStat](./LevelStat.md)

@@ -5,7 +5,7 @@ This structure is passed into a Characters [StatsManager](./StatsManager.md) whe
 
 ## Properties
 
- - `Constitution` - Max health
+ - `Constitution` - increase Max health
  - `Strength` - increase in physical damage, 
  - `Dexterity` - small increase in speed as well as a small increase in damage
  - `Intelligence` - increase in any magic type damage. Can also affect [Dialogue](./Dialogue.md)
@@ -18,7 +18,7 @@ This structure is passed into a Characters [StatsManager](./StatsManager.md) whe
  - `weight` - total weight of your gear. Higher carryweight slows you down(%?)
 
 
-In general, 'weight', 'armor', and 'resists' are the only things that [LevelStat](./LevelStat.md) wont increase
+In general, 'weight', 'armor', and 'resists' are the only things that [LevelStat](./LevelStat.md) cant increase
 
 
 

@@ -3,6 +3,8 @@
 Any DOT from [Skills](./Skill.md)
 Any Buff from Skills too
 
+Also come from [Consumables](./Consumable.md)
+
 Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
 
 ## Extends
@@ -14,6 +16,12 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
 
 ## Properties
  - UHHHHHHHHHH TODO
+
+## Storage
+ - All Effects are IMMUTABLE
+ - Effects are loaded into RAM when first called.
+ - CAUSES
+    - all effects get lost on reload - "permanent" effects included
 
 
 
