@@ -16,8 +16,8 @@ If you land the killing blow:
 DROPS:
  - Loop through all [Items](./Item.md) in a characters inventory
     - run a randomizer on the items drop chance.
-        - On success, this item is given to the Character.
- - Gain XP based off their level. TODO: LEVELUP System.
+        - On success, randomize for the amount of this item. essentially you should take +-1/4 or so of that amount (min 1)
+ - Gain XP based off their level
 
 If the player is the victor Character.
  - Check to see if you completed any Collection or Kill [Quests](./Quest.md).

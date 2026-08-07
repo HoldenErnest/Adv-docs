@@ -1,0 +1,29 @@
+# EXAMPLE Skills
+
+Mass Charm (target skill ONCE for everyone in the circle (centered on caster)):
+    Aura Target (CASTER POS, 5m)
+        new TargetedSkill for each char {newCaster: target, target:caster}
+            MovementSkill (-1, target.pos)
+
+
+
+
+### using SkillEffect? (auraeffeect has its own effect, it follows the afflicted, Procs every x seconds for y total duration)
+
+Heal Aura (continuous radius around circle, procs at an interval, for a duration)
+    BuffSkill {Effect:SkillEffect}
+    
+    SkillEffect (skill: AuraSkill)
+
+    AuraSkill {OriginalCaster:oc, target}
+        new TargetSkill for each character there.
+            BuffSkill (effect, target)
+                Effect {instant heal, damage:-5}
+
+
+
+
+!! IMPORTANT. The distinction between using a skill normally and skillEffect is that it repeats x times over y seconds
+
+Effects are the ONLY way to change health(damage) in battles. projTargetSkill > BuffSkill for each hit > Effect instant damage
+Skills are essentially just ways to target selectively (time and space)
