@@ -22,11 +22,12 @@ Possible Solutions:
 
 
 
-
 ### References
  - [Skillbook](./Skillbook.md)
- - [StatsManager](./StatsManager.md)
+ - [Stats](./Stats.md)
  - [ItemLookup](./ItemLookup.md)
  - [Model](./Model.md)
  - [Reforge](./Reforge.md)
  - [Item](./Item.md)
+ - [TODO](./TODO.md)
+ - [Database](./Database.md)

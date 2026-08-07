@@ -21,3 +21,4 @@ All these gear pieces are of type: REF Equipment
 
 ### References
  - [Inventory](./Inventory.md)
+ - [StatsManager](./StatsManager.md)

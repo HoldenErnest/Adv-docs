@@ -12,4 +12,7 @@ These are how [Quests](./Quest.md) progress when quest conditions are met
 ### References
  - [Stats](./Stats.md)
  - [Speaker](./Speaker.md)
+ - [TODO](./TODO.md)
+ - [README](./README.md)
  - [DialogueManager](./DialogueManager.md)
+ - [Database](./Database.md)

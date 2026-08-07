@@ -18,3 +18,4 @@ Also determines which things are equipped for the Character.
 
 ### References
  - [Character](./Character.md)
+ - [Database](./Database.md)

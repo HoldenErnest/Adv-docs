@@ -17,3 +17,8 @@ If current health reaches 0: Send XP/Rewards to Whoever killed this Character. M
 ## Properties
  - currentHealth
  - maxHealth -- based off Stats.constitution
+
+
+### References
+ - [Character](./Character.md)
+ - [StatsManager](./StatsManager.md)

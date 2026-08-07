@@ -12,3 +12,4 @@ A skillbook is like an "inventory" for a characters spells. Any spells from your
  - [Character](./Character.md)
  - [SkillbookUI](./SkillbookUI.md)
  - [Equipment](./Equipment.md)
+ - [StatsManager](./StatsManager.md)

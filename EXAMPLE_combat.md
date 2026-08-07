@@ -23,3 +23,8 @@ If the player is the victor Character.
  - Check to see if you completed any Collection or Kill [Quests](./Quest.md).
 
 Go about your day I guess.
+
+
+### References
+ - [Quest](./Quest.md)
+ - [TODO](./TODO.md)

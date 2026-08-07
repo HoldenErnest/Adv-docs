@@ -27,7 +27,8 @@ These are all the docs for the systems for the adventure game
 
 
 ### References
- - [SaveAll](./SaveAll.md)
+ - [Dialogue](./Dialogue.md)
  - [Character](./Character.md)
+ - [Reforge](./Reforge.md)
  - [Questbook](./Questbook.md)
  - [Item](./Item.md)

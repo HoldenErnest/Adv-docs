@@ -23,6 +23,6 @@ In general, 'weight', 'armor', and 'resists' are the only things that [LevelStat
 
 
 ### References
- - [Reforge](./Reforge.md)
+ - [TODO](./TODO.md)
  - [Equipment](./Equipment.md)
- - [SkillTypes](./SkillTypes.md)
+ - [StatsManager](./StatsManager.md)

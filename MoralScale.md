@@ -29,6 +29,5 @@ Close matching function representing amount lost:
 
 
 ### References
- - [Stats](./Stats.md)
  - [Character](./Character.md)
  - [Quest](./Quest.md)

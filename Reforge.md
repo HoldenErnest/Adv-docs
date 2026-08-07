@@ -20,5 +20,5 @@ basic reforge stats:
 
 
 ### References
- - [Stats](./Stats.md)
+ - [README](./README.md)
  - [DamageResist](./DamageResist.md)

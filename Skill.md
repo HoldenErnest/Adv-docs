@@ -40,12 +40,16 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
  - EVERY equipped skill is instanced and saved in RAM. So it doesnt have to read disc each cast, and it can calculate damage once from its equip slot
     - This includes skills being cast from other skills. Recursive load
 
+
+
 ### References
  - [Skillbook](./Skillbook.md)
  - [Stats](./Stats.md)
  - [Character](./Character.md)
+ - [EXAMPLE_combat](./EXAMPLE_combat.md)
  - [Effect](./Effect.md)
  - [QuestReward](./QuestReward.md)
  - [README](./README.md)
  - [Controller](./Controller.md)
  - [SkillTypes](./SkillTypes.md)
+ - [CombatSystem](./CombatSystem.md)

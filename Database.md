@@ -29,3 +29,14 @@ There are two kinds of objects stored.
  - Characters -- position..
  - Items -- (saved in each SAVABLE CHARACTERS [inventory](./Inventory.md)) -- amount, itemname...
  - Quests -- completed quests, progress in available
+
+
+### References
+ - [ItemLookup](./ItemLookup.md)
+ - [Dialogue](./Dialogue.md)
+ - [Character](./Character.md)
+ - [Inventory](./Inventory.md)
+ - [Item](./Item.md)
+ - [README](./README.md)
+ - [Consumable](./Consumable.md)
+ - [Equipment](./Equipment.md)

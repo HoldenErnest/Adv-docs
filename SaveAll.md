@@ -8,8 +8,3 @@ Saves the gamestate. Game can only be saved from specific save locations (like a
  - SaveQuests
  - [SaveCharacters](./SaveCharacters.md)
  - Save Hotbar (TODO: other player related things?)
-
-
-
-### References
- - [README](./README.md)

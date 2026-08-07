@@ -19,6 +19,11 @@ Some of these properties you can 'spec' into using Attribute points which are gi
 
 
 ### References
- - [Reforge](./Reforge.md)
+ - [Skillbook](./Skillbook.md)
+ - [Stats](./Stats.md)
+ - [Character](./Character.md)
+ - [LevelStat](./LevelStat.md)
+ - [Effect](./Effect.md)
+ - [HealthStat](./HealthStat.md)
  - [Equipment](./Equipment.md)
  - [SkillTypes](./SkillTypes.md)

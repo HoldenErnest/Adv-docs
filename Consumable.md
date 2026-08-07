@@ -9,4 +9,6 @@ This is a consumable item, which when eaten, gives a specified effect to the cha
 
 ### References
  - [ItemLookup](./ItemLookup.md)
+ - [Effect](./Effect.md)
  - [Item](./Item.md)
+ - [Database](./Database.md)

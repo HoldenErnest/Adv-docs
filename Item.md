@@ -24,7 +24,9 @@ An Item is just information. This structure ONLY HOLDS info that can be changed.
 
 ### References
  - [ItemLookup](./ItemLookup.md)
+ - [EXAMPLE_combat](./EXAMPLE_combat.md)
  - [Inventory](./Inventory.md)
  - [QuestReward](./QuestReward.md)
  - [README](./README.md)
  - [Equipment](./Equipment.md)
+ - [Database](./Database.md)

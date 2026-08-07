@@ -23,11 +23,14 @@ A character is an entity that moves around the world and interacts with it if th
 
 ### References
  - [Skillbook](./Skillbook.md)
- - [Stats](./Stats.md)
  - [Player](./Player.md)
  - [PlayerUI](./PlayerUI.md)
+ - [HealthStat](./HealthStat.md)
  - [README](./README.md)
  - [AIController](./AIController.md)
  - [CharacterState](./CharacterState.md)
  - [Skill](./Skill.md)
  - [MoralScale](./MoralScale.md)
+ - [StatsManager](./StatsManager.md)
+ - [Database](./Database.md)
+ - [CombatSystem](./CombatSystem.md)

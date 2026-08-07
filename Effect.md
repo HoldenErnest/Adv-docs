@@ -26,4 +26,5 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
 
 
 ### References
- - [Skill](./Skill.md)
+ - [TODO](./TODO.md)
+ - [StatsManager](./StatsManager.md)

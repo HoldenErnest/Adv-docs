@@ -13,3 +13,8 @@ XP pipeline:
  - xp
  - level
  - specStats -- [Stats](Stats.md)
+
+
+### References
+ - [Stats](./Stats.md)
+ - [StatsManager](./StatsManager.md)

@@ -20,3 +20,9 @@
  - Counter (reflect Buff) *(Any damage passed ALSO passes the Character that dealt the damage (for this and also Name of who dealt the killing blow))
  - Dodging (any movement skill)
  - Damage reduction based on equipped skill types
+
+
+### References
+ - [Character](./Character.md)
+ - [README](./README.md)
+ - [Skill](./Skill.md)
