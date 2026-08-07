@@ -23,16 +23,18 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
 ## Properties
  - skillID - PRE ASSIGNED
  - skillName
- - #TODO Delay?  --- cast fireball, impact circle shows up, 1 second later damage comes in
  - description - something maybe when hovering to show high level idea of the skill. Also your Damage numbers (use escape codes for these)
  - [skillType](./SkillTypes.md)
  - levelReq - min level required to use this skill !! TODO make sure targeted casting still works (change levelReq of casted skill to 0?)
- - onlyTargetEnemies -- BOOLEAN -- TODO make sure this makes sense
+ - targetEnemies -- BOOLEAN default true-- TODO make sure these makes sense
+ - targetAllies -- BOOLEAN default true
  - Cooldown
+ - Delay
  - color -- TODO -- a very basic color to represent circles/particles that this skill produces
+ - selfCast -- boolean - this is the standard for telling the spell where its cast.
 
 ### Private
- - Caster [Character](./Character.md)
+ - Caster [Character](./Character.md) -- who has/will cast this spell (no damage scales from this character)
  - OriginalCaster -- original cant be overwritten and is passed to every child skill(if applicable). So targeted skills can always trace back who gets xp. / whos team theyre on
 
 ## Storage

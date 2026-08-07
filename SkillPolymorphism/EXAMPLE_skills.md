@@ -22,6 +22,13 @@ Heal Aura (continuous radius around circle, procs at an interval, for a duration
 
 
 
+## Skill Storage:
+
+ - storing subskills strictly by ID
+ Skill1{type:radiusTargetSkill,r:5,selfCast,skill:2} Skill2{type:buffSkill,selfCast,effect:5} Effect5{Damage:5,type:wind}
+
+    - current issue I see ::: how is damage passed down? does it look back at the original caster at the end?
+
 
 !! IMPORTANT. The distinction between using a skill normally and skillEffect is that it repeats x times over y seconds
 
