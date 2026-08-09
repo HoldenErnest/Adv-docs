@@ -2,6 +2,8 @@
 
 Cast a skill TARGETED on everyone within a radius around a position.
 
+for simplicity sake, this does not target the caster.
+
 
 ## Properties
  - Chained Skill

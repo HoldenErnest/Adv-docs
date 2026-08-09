@@ -74,3 +74,12 @@ cast buff at location -> SkillEffect(1s interval) -> radiusTargetSkill(1 char ma
 `pyroclastic eruption`
 cast radiusTargetSkill(20m) -> multiSkill -> radiusTargetSkill(5m) -> buff {20 solid damage, 0s duration, 0s interval}
                                           -> buff {25 solid damage, 0s duration, 0s interval}
+
+`hammer drop`
+cast multiSkill -> radiusTargetSkill(5m) -> buff {25 solid damage, 0s duration, 0s interval}
+                -> buff {25 solid damage, 0s duration, 0s interval}
+_NOTE_ cant replicate "reactive armor" because damage doesnt scale off other attributes
+_NOTE_ watch out for reflect buffs, for both you and the enemy
+
+`poke`
+cast TargetSkill -> buff -> {3 true damage, 0s duration, 0s interval}
