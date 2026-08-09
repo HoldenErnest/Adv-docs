@@ -15,6 +15,7 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
  - damageEffect - ticks every x seconds to give you a health change. (Regeneration, Poison)
  - movementEffect - OVERRIDES CONTROLLER. - TODO - priority? Dont allow Dashing while under Charm/Fear/Freeze
  - skillEffect - 
+ - MultiEffect
 
 ## Properties
  - effectID - PRE ASSIGNED

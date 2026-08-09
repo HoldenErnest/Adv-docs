@@ -5,6 +5,7 @@ Cast a skill TARGETED on everyone within a radius around a position.
 
 ## Properties
  - Chained Skill
+ - maxTargets -- how many targets can this one spell hit? (its targeting is randomized. This allows things like thunderstorm 1 strike at a time)
  - radius
  - cast interval
  - cast location

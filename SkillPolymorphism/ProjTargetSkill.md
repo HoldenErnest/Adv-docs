@@ -5,6 +5,7 @@ Shoot a projectile at a location to determine targets who cast this subskill
 
 ## Properties
  - subSkill
+ - pierce
  - targetPrediction -- if cast on a Character, should it try to predict movement
 
 ### Private Properties

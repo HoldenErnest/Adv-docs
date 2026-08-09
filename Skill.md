@@ -31,13 +31,14 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
  - Delay
  - minRange -- float:0
  - maxRange -- float:99 - different skills can use these values in different ways
- - castOnSelf -- boolean - this is the standard for telling which direction the spell is cast if there are multiple options
  - castOnOriginal -- boolean: false - IF this is a subskill (if its not a subskill, either way itll cast by original since theres only one)
  - color -- a very basic color to represent circles/particles that this skill produces
 
 ### Private
  - Caster [Character](./Character.md) -- who has/will cast this spell (no damage scales from this character)
  - OriginalCaster -- original cant be overwritten and is passed to every child skill(if applicable). So targeted skills can always trace back who gets xp. / whos team theyre on
+ - target [Character](./Character.md)
+ - targetLocation -- uses target.location if there is a target specified -- _TODO_ -- make sure this targeting works like this 
  - skillDepth -- set a max skill depth cutoff, so it doesnt recur to infinity (though when designing, this should be avoided)
 
 ## Storage

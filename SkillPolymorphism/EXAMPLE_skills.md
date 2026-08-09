@@ -57,13 +57,20 @@ directTargetSkill -> Effect the targeted character -> Effect: instant damage
 cast radiusTargetSkill -> buff {intelligence/strength}
 
 `poison dagger`
-cast projTargetSkill -> MultiSkill -> buff {3 earth damage, 5s duration, 1s interval}
-                                   -> buff {4 physical damage, 0s duration, 0s interval}
+cast projTargetSkill -> Buff -> MultiEffect {4 solid damage, 0s duration, 0s interval}
+                                   + buff {3 liquid damage, 5s duration, 1s interval}
 
 `acid throw`
-cast projTargetSkill -> MultiSkill -> buff {-5 armor, 7s duration, 0s interval}
-                                   -> buff {4 earth damage, 5s duration, 1s interval}
+cast projTargetSkill -> Buff -> MultiEffect {4 solid damage, 5s duration, 1s interval}
+                                   + buff {-5 armor, 7s duration, 0s interval}
 
+`poison puddle`
+cast buff at location -> SkillEffect(0.5s interval, 20s duration) -> radiusTargetSkill -> buff {5 liquid damage, 10s duration, 1s interval}
+_NOTE_ this reapplies "poison" every 0.5s, but only ticks for damage every 1 second
 
-### !!!!!!!!!!!!!!!!!!!!!!IMPORTANT!!!!!!!!!!!!!!!!!!!!!!!!!! ###
-EVASION on these??? It looks weird if you evade the damage but still get the debuff. What option is there to tie it to the evade
+`thunderstorm`
+cast buff at location -> SkillEffect(1s interval) -> radiusTargetSkill(1 char max) -> buff {30 wind damage, 0s duration, 0s interval}
+
+`pyroclastic eruption`
+cast radiusTargetSkill(20m) -> multiSkill -> radiusTargetSkill(5m) -> buff {20 solid damage, 0s duration, 0s interval}
+                                          -> buff {25 solid damage, 0s duration, 0s interval}
