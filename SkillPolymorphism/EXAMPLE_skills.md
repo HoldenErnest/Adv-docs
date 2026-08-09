@@ -28,6 +28,8 @@ Heal Aura (continuous radius around circle, procs at an interval, for a duration
  Skill1{type:radiusTargetSkill,r:5,selfCast,skill:2} Skill2{type:buffSkill,selfCast,effect:5} Effect5{Damage:5,type:wind}
 
     - current issue I see ::: how is damage passed down? does it look back at the original caster at the end?
+    - everything has to be explicitly created even it itll never be used as a normal spell
+    - can targeting be selected correctly? -- how to store the difference in caster shooting everyone around him and caster getting shot by everyone around him(also could be healing proj)
 
 
 !! IMPORTANT. The distinction between using a skill normally and skillEffect is that it repeats x times over y seconds
