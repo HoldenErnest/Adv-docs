@@ -15,7 +15,6 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
  - SummonSkill - summons anything non simple, (in world objects, charcters, etc)
 
  #TODO: flesh this out ^ . make sure you can create AOE DOT spells like healing circle or poison circle. Maybe Targeted DOT as well? fireballs raining on you.
- #I guess a difference between effects and skills are if you want to see the icon on your "statuses"
 
 ## Using
  - 
@@ -24,22 +23,26 @@ Once cast, the prefab is spawned at this location. This prefab inherits the dama
  - skillID - PRE ASSIGNED
  - skillName
  - description - something maybe when hovering to show high level idea of the skill. Also your Damage numbers (use escape codes for these)
- - [skillType](./SkillTypes.md)
+ - [skillType](./SkillTypes.md) _TODO_ make sure damage can be passed down through subskills
  - levelReq - min level required to use this skill !! TODO make sure targeted casting still works (change levelReq of casted skill to 0?)
  - targetEnemies -- BOOLEAN default true-- TODO make sure these makes sense
  - targetAllies -- BOOLEAN default true
  - Cooldown
  - Delay
- - color -- TODO -- a very basic color to represent circles/particles that this skill produces
- - selfCast -- boolean - this is the standard for telling the spell where its cast.
+ - minRange -- float:0
+ - maxRange -- float:99 - different skills can use these values in different ways
+ - castOnSelf -- boolean - this is the standard for telling which direction the spell is cast if there are multiple options
+ - castOnOriginal -- boolean: false - IF this is a subskill (if its not a subskill, either way itll cast by original since theres only one)
+ - color -- a very basic color to represent circles/particles that this skill produces
 
 ### Private
  - Caster [Character](./Character.md) -- who has/will cast this spell (no damage scales from this character)
  - OriginalCaster -- original cant be overwritten and is passed to every child skill(if applicable). So targeted skills can always trace back who gets xp. / whos team theyre on
+ - skillDepth -- set a max skill depth cutoff, so it doesnt recur to infinity (though when designing, this should be avoided)
 
 ## Storage
  - All skills are IMMUTABLE - only original structures are stored on the drive
- - EVERY equipped skill is instanced and saved in RAM. So it doesnt have to read disc each cast, and it can calculate damage once from its equip slot
+ - EVERY _equipped_ skill is instanced and saved in RAM. So it doesnt have to read disc each cast, and it can calculate damage once from its equip slot
     - This includes skills being cast from other skills. Recursive load
 
 

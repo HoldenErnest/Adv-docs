@@ -36,3 +36,20 @@ Heal Aura (continuous radius around circle, procs at an interval, for a duration
 
 Effects are the ONLY way to change health(damage) in battles. projTargetSkill > BuffSkill for each hit > Effect instant damage
 Skills are essentially just ways to target selectively (time and space)
+
+
+```
+"gun"
+projectileTargetSkill -> Effect for each character hit -> Effect: instant damage
+
+"heal gun"
+projectileTargetSkill -> Effect for each character hit -> Effect: instant healing
+
+"fireball"
+radiusTargetSkill -> Effect for each character hit -> Effect: instant damage (fire)
+
+"melee"
+directTargetSkill -> Effect the targeted character -> Effect: instant damage
+
+
+```

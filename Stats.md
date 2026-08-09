@@ -16,7 +16,7 @@ This structure is passed into a Characters [StatsManager](./StatsManager.md) whe
  - `liquid_resist`
  - `solid_resist`
  - `weight` - total weight of your gear. Higher carryweight slows you down(%?)
-
+ - `reflect` - how much damage is reflected back when you get hit (does not reflect true damage)
 
 In general, 'weight', 'armor', and 'resists' are the only things that [LevelStat](./LevelStat.md) cant increase
 
