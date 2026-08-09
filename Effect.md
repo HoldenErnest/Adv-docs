@@ -24,8 +24,14 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
  - duration -- how long does this effect last
  - effectMultiplier -- subclasses use this differently. How 
  - procInterval -- usually just procs once(0). But if you wanted damage over time or armor over time or something
+ - stackTags -- UID/string array to determine which other spells stack this spell. /which get stacked by it (if maxStacks > 0)
+ - maxStacks -- default 0. increase when any spell with the same `stackTag` is procced. It ALWAYS refreshes duration of ONLY the exact same spell
  - iconID
  - color -- a very basic color to represent circles/particles that this Effect produces
+ - GIFanimation? / png -- something overlapping the character, like ice at their feet
+
+### Private Properties
+ - stacks
 
 ## Storage
  - All Effects are IMMUTABLE

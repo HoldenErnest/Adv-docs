@@ -51,5 +51,19 @@ radiusTargetSkill -> Effect for each character hit -> Effect: instant damage (fi
 "melee"
 directTargetSkill -> Effect the targeted character -> Effect: instant damage
 
-
 ```
+
+`buff allies damage`
+cast radiusTargetSkill -> buff {intelligence/strength}
+
+`poison dagger`
+cast projTargetSkill -> MultiSkill -> buff {3 earth damage, 5s duration, 1s interval}
+                                   -> buff {4 physical damage, 0s duration, 0s interval}
+
+`acid throw`
+cast projTargetSkill -> MultiSkill -> buff {-5 armor, 7s duration, 0s interval}
+                                   -> buff {4 earth damage, 5s duration, 1s interval}
+
+
+### !!!!!!!!!!!!!!!!!!!!!!IMPORTANT!!!!!!!!!!!!!!!!!!!!!!!!!! ###
+EVASION on these??? It looks weird if you evade the damage but still get the debuff. What option is there to tie it to the evade
