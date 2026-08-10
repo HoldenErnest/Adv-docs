@@ -1,27 +1,5 @@
 # EXAMPLE Skills
 
-Mass Charm (target skill ONCE for everyone in the circle (centered on caster)):
-    Aura Target (CASTER POS, 5m)
-        new TargetedSkill for each char {newCaster: target, target:caster}
-            MovementSkill (-1, target.pos)
-
-
-
-
-### using SkillEffect? (auraeffeect has its own effect, it follows the afflicted, Procs every x seconds for y total duration)
-
-Heal Aura (continuous radius around circle, procs at an interval, for a duration)
-    BuffSkill {Effect:SkillEffect}
-    
-    SkillEffect (skill: AuraSkill)
-
-    AuraSkill {OriginalCaster:oc, target}
-        new TargetSkill for each character there.
-            BuffSkill (effect, target)
-                Effect {instant heal, damage:-5}
-
-
-
 ## Skill Storage:
 
  - storing subskills strictly by ID

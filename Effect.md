@@ -21,12 +21,14 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
  - effectID - PRE ASSIGNED
  - effectName
  - description
+ - tags -- UID/string array - what groups does this fall into. Used for stacking other effects 
  - removable:false -- if its something that could be anoying outside of combat, allow it to be removable
  - duration -- how long does this effect last
  - effectMultiplier -- subclasses use this differently. How 
  - procInterval -- usually just procs once(0). But if you wanted damage over time or armor over time or something
- - stackTags -- UID/string array to determine which other spells stack this spell. /which get stacked by it (if maxStacks > 0)
- - maxStacks -- default 0. increase when any spell with the same `stackTag` is procced. It ALWAYS refreshes duration of ONLY the exact same spell
+ - stackTags
+ - maxStacks
+ - stackMultiplier -- stack damage increase
  - iconID
  - color -- a very basic color to represent circles/particles that this Effect produces
  - GIFanimation? / png -- something overlapping the character, like ice at their feet
@@ -39,6 +41,13 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
  - Effects are loaded into RAM when first called.
  - CAUSES
     - all effects get lost on reload - "permanent" effects included
+
+### Effect Stacking!
+ - everytime the EXACT SAME effect is applied, refresh the duration. -- this has nothing to do with stacking unless the effect has the same tags as stackTags
+ - if an effect has a 0 maxStack, it cannot stack.
+ - stacking occurs when this effect has a stack tag to which an incoming effect has the same normal tag
+ - !! before effects deal their first damage, they check to see if they can stack with any other active effects. (this leads to things like maxStack:1 if theyre poisoned, this instant fire damage does 1.5x more damage.)
+ - the `stackMultiplier` is how much more/less damage does this effect do from BASE -0.5, 0.5 == + linear -50% or +50% each stack (be careful this doesnt go into the negatives)
 
 
 
