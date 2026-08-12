@@ -19,6 +19,7 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
 
 ## Properties
  - effectID - PRE ASSIGNED
+ - altID - this is for effects which are essentially the same as other effects. Poison 5 damage, vs poison 20 damage should have the same icon/reset. The idea is if this is SET, default all values to that effects values, then you only have to specify any changes you want (damage) -- higher damage should completely reset any other cooldowns/whatnot. LOWER damage should be ratiod between damage and time remaining for both.
  - effectName
  - description
  - tags -- UID/string array - what groups does this fall into. Used for stacking other effects 
