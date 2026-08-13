@@ -7,6 +7,10 @@ Look at the [Database](./Database.md). YES its stored here.
 REASON:
  - this data is seperated from [Item](./Item.md). Anything that can change is put in Item, anything that ALWAYS stays the same will be in this lookup. This will make saving easy as well as not have so much load on passing Items around.
 
+--------------------!!!!!!!
+ I mean this is essentially what the DB job is. So I dont really think I'll have to make from scratch.
+ (load from disc into memory with a lookup ID/index)
+
 
 ### Data Structure:
 

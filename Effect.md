@@ -30,6 +30,7 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
  - iconID
  - color -- a very basic color to represent circles/particles that this Effect produces
  - GIFanimation? / png -- something overlapping the character, like ice at their feet
+ - audio -- audio to play ON EACH PROC
 
 ## Storage
  - All Effects are IMMUTABLE

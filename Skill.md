@@ -32,6 +32,7 @@ cast to any specified location that is between min and max range distance from t
  - maxRange -- float:99 - different skills can use these values in different ways
  - castOnOriginal -- boolean: false - IF this is a subskill (if its not a subskill, either way itll cast by original since theres only one)
  - color -- a very basic color to represent circles/particles that this skill produces
+ - audio -- audio to play ON CAST (after delay)
 
 ### Private
  - Caster [Character](./Character.md) -- who has/will cast this spell (no damage scales from this character)

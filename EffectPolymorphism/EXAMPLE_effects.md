@@ -26,3 +26,5 @@ _NOTE_ if all 10 earthstacks are met, this will deal 55 total damage by the end,
 
 - how is damage passed down from skills. Flat from the parent/super skill? all the way down? -- Damage is stored in Effects - effects can be easily coppied with different values using the `altID`
 - PERCENT damage? ---
+
+base damage has to be scales ON CAST (scaled with int, str, whatnot)

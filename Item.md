@@ -2,6 +2,10 @@
 
 An Item is just information. This structure ONLY HOLDS info that can be changed.
 
+Anything that cant be changed (IMMUTABLE PROPERTIES) is stored on disc and should be refrenced.
+NEW INSTANCES: dynamic properties should have a default value or passed in when initially being created.
+    -- when setting up the world building system, these can be passed in when setting up characters inventory
+
 ## Extends
  - [Equipment](./Equipment.md)
  - [Consumable](./Consumable.md)

@@ -4,21 +4,19 @@ Equipment is an [Item](./Item.md) that can be equipped to a character. This can 
 
 Equipping an Equip may also give you a skill. This skill is put in your [Skillbook](./Skillbook.md)
 
+Equip damage is set by the [Skill](./Skill.md). Skills have MANY effect damages to choose from, so making the same skill with slightly different damage values isnt an issue
+
+look at [Items](./Item.md) to see why the properties are split up for storage.
+
 ## Properties
  - `equipped` - determines if this is equipped. Make sure to update the equipSystem though
- - [Stats](./Stats.md)
+ - reforge level -- this modifies the stats dynamically. 
 
 ## Immutable Properties (stored in the [lookupTable](./ItemLookup.md))
  - gearType - type of gear this can be (TODO: what gear types are there)
- - addSkills: Array of skillnames
+ - addSkills: Array of skill IDs
+ - [Stats](./Stats.md)
 
-
-TODO: damage and stats?
- - Damage can not be saved in Skills themselves. skills dont save.
-Problem:
- - Skill damage needs to increase when reforging a weapon.
-Possible Solutions:
- - Equip reforges can only increase damage multiplier for all skills.
 
 
 
@@ -29,5 +27,4 @@ Possible Solutions:
  - [Model](./Model.md)
  - [Reforge](./Reforge.md)
  - [Item](./Item.md)
- - [TODO](./TODO.md)
  - [Database](./Database.md)
