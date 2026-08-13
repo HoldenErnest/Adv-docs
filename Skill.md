@@ -2,19 +2,18 @@
 
 This represents all usable actions a given [Character](./Character.md) can take. Aside from simple movement which is the [Controllers](./Controller.md) job.
 
+[Effects](./Effect.md) are the ONLY way to change health(damage) in battles. projTargetSkill > BuffSkill for each hit > Effect instant damage
+"Skills" are essentially just ways to target selectively (time and space)
+
 cast to any specified location that is between min and max range distance from this character.
 
-Once cast, the prefab is spawned at this location. This prefab inherits the damage and effects. 
-
 ## Extends
- - MoveSkill - anything that moves the caster. (maybe calls a different skill at the end of its durration)
- - ProjSkill - summons a specific "projectile" module object
- - TargetedSkill - activate any Skill as a specific user.
+ - ProjTargetSkill - summons a specific "projectile" module object which tells it which skills to cast on anything it hits
+ - TargetSkill - activate any Skill as a specific user.
  - BuffSkill - gives an effect to this caster.
- - SimpleSkill - create an aoe burst at a given location.
- - SummonSkill - summons anything non simple, (in world objects, charcters, etc)
-
- #TODO: flesh this out ^ . make sure you can create AOE DOT spells like healing circle or poison circle. Maybe Targeted DOT as well? fireballs raining on you.
+ - MultiSkill - cast multiple skills at once.
+ - SummonSkill - summons anything non simple, (in world objects, charcters, etc) -- this is kind of the outlier skill
+ - RadiusTargetSkill - target everyone in a radius
 
 ## Using
  - 

@@ -7,7 +7,7 @@ for simplicity sake, this does not target the caster.
 
 ## Properties
  - Chained Skill
- - maxTargets -- how many targets can this one spell hit? (its targeting is randomized. This allows things like thunderstorm 1 strike at a time)
+ - maxTargets -- how many targets can this one spell hit? (its targeting is randomized. This allows things like thunderstorm/ 1 strike at a time)
  - radius
  - cast interval
  - cast location

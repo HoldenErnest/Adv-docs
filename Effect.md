@@ -27,28 +27,15 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
  - duration -- how long does this effect last
  - effectMultiplier -- subclasses use this differently. How 
  - procInterval -- usually just procs once(0). But if you wanted damage over time or armor over time or something
- - stackTags
- - maxStacks
- - stackMultiplier -- stack damage increase
  - iconID
  - color -- a very basic color to represent circles/particles that this Effect produces
  - GIFanimation? / png -- something overlapping the character, like ice at their feet
-
-### Private Properties
- - stacks
 
 ## Storage
  - All Effects are IMMUTABLE
  - Effects are loaded into RAM when first called.
  - CAUSES
     - all effects get lost on reload - "permanent" effects included
-
-### Effect Stacking!
- - everytime the EXACT SAME effect is applied, refresh the duration. -- this has nothing to do with stacking unless the effect has the same tags as stackTags
- - if an effect has a 0 maxStack, it cannot stack.
- - stacking occurs when this effect has a stack tag to which an incoming effect has the same normal tag
- - !! before effects deal their first damage, they check to see if they can stack with any other active effects. (this leads to things like maxStack:1 if theyre poisoned, this instant fire damage does 1.5x more damage.)
- - the `stackMultiplier` is how much more/less damage does this effect do from BASE -0.5, 0.5 == + linear -50% or +50% each stack (be careful this doesnt go into the negatives)
 
 
 
