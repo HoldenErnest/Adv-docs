@@ -12,7 +12,7 @@
  - The only actions a [Character](./Character.md) can take are [Skills](./Skill.md) (and movement I guess)
 
 ### Expansive
- - New Skills can be created with just a JSON object and an icon image
+ - New Skills can be created with just a JSON object and an icon image/sounds
 
 
 ### Depth
@@ -20,6 +20,11 @@
  - Counter (reflect Buff) *(Any damage passed ALSO passes the Character that dealt the damage (for this and also Name of who dealt the killing blow))
  - Dodging (any movement skill)
  - Damage reduction based on equipped skill types
+
+
+### EXAMPLES / Structure
+
+check out the SkillPolymorphism directory, to see all the examples and Skill setups
 
 
 ### References
