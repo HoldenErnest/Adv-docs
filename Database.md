@@ -1,6 +1,11 @@
 # Database
 
--- Unsure what to use rn
+-- I'm just going to use different json files/filestructure.
+
+!! Important distinction: Object save states are not loaded the same as a generic item load. !!
+ - Saved Objects are loaded from their save file (which is an ID attached to updated properties.)
+ - Any IDs that a saved object has, will be loaded from their main read-only generic object list. (There is a list of Generic Character/Item definitions)
+
 
 There are two kinds of objects stored.
 
@@ -27,7 +32,7 @@ There are two kinds of objects stored.
 
 ## Runtime Objects
  - Characters -- position..
- - Items -- (saved in each SAVABLE CHARACTERS [inventory](./Inventory.md)) -- amount, itemname...
+ - Inventory -- Items,Equips -- amount, itemname... -- split up equips and items in json(so loading is easier).
  - Quests -- completed quests, progress in available
 
 

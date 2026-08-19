@@ -3,6 +3,8 @@
 This is a structure to hold any stat that can affect a given Character.
 This structure is passed into a Characters [StatsManager](./StatsManager.md) whenever it is "in use"
 
+// TODO: addition/multiplication toggle property? to determine how the stats should calculate your other stats.
+
 ## Properties
 
  - `Constitution` - increase Max health
