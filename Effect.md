@@ -16,6 +16,7 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
  - movementEffect - OVERRIDES CONTROLLER. - TODO - priority? Dont allow Dashing while under Charm/Fear/Freeze
  - skillEffect - 
  - MultiEffect
+ - SpecialEffect - Any other effects that cant really be catagorized nicely. (invisibility?)
 
 ## Properties
  - effectID - PRE ASSIGNED
