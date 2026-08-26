@@ -28,6 +28,7 @@ cast to any specified location that is between min and max range distance from t
  - targetAllies -- BOOLEAN default true
  - Cooldown
  - Delay
+ - EffectMultiplier -- see Effect.effectMultiplier, 
  - minRange -- float:0
  - maxRange -- float:99 - different skills can use these values in different ways
  - castOnOriginal -- boolean: false - IF this is a subskill (if its not a subskill, either way itll cast by original since theres only one)
