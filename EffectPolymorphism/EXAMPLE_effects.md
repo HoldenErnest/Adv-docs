@@ -46,4 +46,6 @@ TODO: you can calculate damage from caster stats 1 of 2 ways: increase the multi
 - how is damage passed down from skills. --- `altID` is no longer being used (used to be that this ID was used to initialize defaults from other effects. So you could make new IDs for each new damage (poison 1, vs 2)). --- NOW damage is passed multiplicitively through the damage pipeline via an `effectMultiplier` value. - the key is that non-default damage is scarce, essentially just used for consumables and equipment
 - PERCENT damage? ---
 
-base damage has to be scales ON CAST (scaled with int, str, whatnot)
+base damage has to be scales ON CAST (scaled with int, str, whatnot) -- no it doesnt
+
+how to do subclass parsing??????????????
