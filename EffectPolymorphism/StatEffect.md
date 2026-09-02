@@ -2,7 +2,8 @@
 
 Change stat effects for a certain period of time (specified by [Effect](./../Effect.md))
 
-statEffects ARE NOT affected by the Effect.effectMultiplier
+statEffects ARE NOT affected by the Effect.effectMultiplier -- is there any need to? (not to be confused with equips stats)
+    - effect: increase defense by 50%.. 
 
 
 ## Properties
