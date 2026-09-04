@@ -12,7 +12,7 @@ XP pipeline:
 ## Properties
  - xp
  - level
- - specStats -- [Stats](Stats.md)
+ - specStats -- [Stats](StatModifier.md)
 
 
 ### References

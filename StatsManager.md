@@ -4,8 +4,8 @@ This controls all the general stats for a given [Character](./Character.md).
 Some of these properties you can 'spec' into using Attribute points which are given based on Level
 
 ## Properties
- - currentStats -- [Stats](./Stats.md) These are ALL the current stats for a given character
-    - This changes by "external forces" passing in [Stats](./Stats.md) of their own, which increases or decreases this.
+ - currentStats -- [Stats](./StatSheet.md) These are ALL the current stats for a given character
+    - This changes by "external forces" passing in [Stats](./StatSheet.md) of their own, which increases or decreases this.
  - [LevelStat](./LevelStat.md)
  - [HealthStat](./HealthStat.md)
 

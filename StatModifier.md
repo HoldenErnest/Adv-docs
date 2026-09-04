@@ -1,11 +1,13 @@
-# Stats
+# Stat Modifier
 
-This is a structure to hold any stat that can affect a given Character.
-This structure is passed into a Characters [StatsManager](./StatsManager.md) whenever it is "in use"
+This is the object that gets passed around to modify Characters [StatSheets](./StatSheet.md)
 
-// TODO: addition/multiplication toggle property? to determine how the stats should calculate your other stats.
+equips have these as well as effects can give these. (These are all added up in the [StatsManager](./StateManager.md))
+
+All of these must be FLOATS since they potentially can be used as multipliers
 
 ## Properties
+ - `multiplies` - does this multiply? add by default
 
  - `Constitution` - increase Max health
  - `Strength` - increase in physical damage (also slows less when wearing heavy gear)
@@ -19,11 +21,4 @@ This structure is passed into a Characters [StatsManager](./StatsManager.md) whe
  - `weight` - total weight of your gear. Higher carryweight slows you down(%)
  - `reflect` - how much damage is reflected back when you get hit (does not reflect damage with damage type "true")
 
-In general, 'weight', 'armor', and 'resists' are the only things that [LevelStat](./LevelStat.md) cant increase
-
-
-
-### References
- - [TODO](./TODO.md)
- - [Equipment](./Equipment.md)
- - [StatsManager](./StatsManager.md)
+# TODO: check this over agian

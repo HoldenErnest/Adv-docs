@@ -15,7 +15,7 @@ look at [Items](./Item.md) to see why the properties are split up for storage.
 ## Immutable Properties (stored in the [lookupTable](./ItemLookup.md))
  - gearType - type of gear this can be (TODO: what gear types are there)
  - addSkills: Array of skill IDs
- - [Stats](./Stats.md)
+ - [Stats](./StatModifier.md)
  - skillMultiplier -- BIG sword vs little sword -> just point them to the same generic phys damage skill with a different skillMultiplier
 
 
