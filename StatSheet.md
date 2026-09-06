@@ -6,6 +6,8 @@ Not to be confused with [StatModifier](./StatModifier.md) which modifies these s
 
 ## Properties
 
+ - `Memory` - how many skills can you have on your hotbar at once. Up to probably 9 -- these are gained through main story events probably
+ 
  - `Constitution` - increase Max health
  - `Strength` - increase in physical damage (also slows less when wearing heavy gear)
  - `Intelligence` - increase in any magic type damage. Can also affect [Dialogue](./Dialogue.md)

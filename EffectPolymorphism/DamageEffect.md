@@ -4,7 +4,7 @@ Simple Damge / DOT on a character
 
 ## Properties
  - damage - (base damage) this is increased by the Effect.effectMultiplier
- - type -- [DamageType](./../SkillTypes)
+ - type -- [DamageType](./../SkillTypes.md)
  - stackTags
  - maxStacks
  - stackMultiplier -- stack damage increase

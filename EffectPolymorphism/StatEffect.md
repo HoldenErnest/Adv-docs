@@ -7,7 +7,7 @@ statEffects ARE NOT affected by the Effect.effectMultiplier -- is there any need
 
 
 ## Properties
- - statChange -- a [Stat](./../Stats.md) object for determining how much to change by every tick/interval
+ - statChange -- a [StatModifier](./../StatModifier.md) object for determining how much to change by every tick/interval
 
 ### Private Properties
  - overallStatChange(Stat) -- keep track of total stat change from base, so when the effect ends you remember how much to change it by
