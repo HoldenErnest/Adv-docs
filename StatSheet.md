@@ -23,6 +23,33 @@ Not to be confused with [StatModifier](./StatModifier.md) which modifies these s
 In general, 'weight', 'armor', and 'resists' are the only things that [LevelStat](./LevelStat.md) cant increase
 
 
+## HOW TO DO THE CALCUATIONS
+
+ - Bigger issue than I thought. Essentially an async system using a mix of multiplication and addition doesnt reverse perfectly. After effects run out or armor gets removed, the base stats would change.
+- Additionally, when caching these stat modifications for calculation, they need to be IDed or something since these are all started and ended at arbitrary times.
+
+IDEAS::
+
+Interface for anything that can modify a characters stats.
+
+each stat modification gets tracked on a list by the [StatSheet](./StatSheet.md)
+ - when the stat is added, the stats get added as normal (IF its a multiplier, do the math to convert the properties of the [StatModifier](./StatModifier.md) to addition. (100 base, 0.1* = -90))
+
+ ^^ this theory SUCKS because, why check if removed every pass. Let the Effect call remove stat.
+
+// TODO HEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEELP, what am I doing.
+
+just need the interface so I can create a generic list:
+ - stat is added:
+    - call add to statsheet (this(as an interface), StatModifier)
+    - the statsheet converts all modifiers to be additive
+    - the statsheet adds the modifer to a list keyed by the interface (list items with the same parent interface get added together (they will end at the same time though.))
+ - stat is removed:
+    - call remove from statsheet (this as the interface)
+    - that StatModifier is reverted (subtracted) and removed from the list.
+
+
+// ok wow thats insane how long that took
 
 ### References
  - [TODO](./TODO.md)
