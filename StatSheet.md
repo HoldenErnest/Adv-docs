@@ -6,13 +6,24 @@ Not to be confused with [StatModifier](./StatModifier.md) which modifies these s
 
 ## Properties
 
+[Controlled by story]
  - `Memory` - how many skills can you have on your hotbar at once. Up to probably 9 -- these are gained through main story events probably
+ - `Moral` - controlled by the story -- how moral is this player? (at 0% moral: +10% damage to all skills and -50% healing. at 100% moral: +50% healing) (BOTH characters moral is taken into account when healing (caster target))
  
- - `Constitution` - increase Max health
+[Controlled by Level and modifiers]
+ - `Constitution` - increase Max health (+5 per)
  - `Strength` - increase in physical damage (also slows less when wearing heavy gear)
  - `Intelligence` - increase in any magic type damage. Can also affect [Dialogue](./Dialogue.md)
- - `Evasion` - polynomial decrease to each points effect? 50% evade at 50 points? -- ignored by true damage
+ - `Technique` - increases casting speed slightly
+ - `Agility` - very slightly increases speed and evasion. (maybe something like 50 agi = +50% speed, +10% evade)
+
+ TODO: what I want with the combat numbers:
+   - the higher the difference from str to defense, the less the damage should increase -- +5 str over def = 1.2x. +25 str over def = 2x
+   -- I think numbers should just go big actually 
+
+[Controlled by modifiers]
  - `Speed` - affects [Controller](./Controller.md) speed value. `weight` can also lower this depending on `strength`
+ - `Evasion` - polynomial decrease to each points effect? 50% evade at 50 points? -- ignored by true damage
  - `Armor` - % physical resist [Skill](./Skill.md) damage
  - `gas_resist`
  - `liquid_resist`
@@ -50,6 +61,9 @@ just need the interface so I can create a generic list:
 
 
 // ok wow thats insane how long that took
+
+// THIS IDEA ISNT BAD-- BUT
+ - networking might work better if it recalculates every frame. (list of additions and multiplication stats (order these in a predictive way so clients sync) then recalc)
 
 ### References
  - [TODO](./TODO.md)

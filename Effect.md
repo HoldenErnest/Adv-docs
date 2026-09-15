@@ -27,6 +27,7 @@ Ideas: [idea page](https://tvtropes.org/pmwiki/pmwiki.php/Main/StatusEffects)
  - duration -- how long does this effect last
  - effectMultiplier -- subclasses use this differently. How 
  - procInterval -- usually just procs once(0). But if you wanted damage over time or armor over time or something
+ - maxProcs -- determine how many times it can proc (things like big armor shouldnt be able to apply twice ) -- not to be confused with damages stack count
  - iconID
  - color -- a very basic color to represent circles/particles that this Effect produces
  - GIFanimation? / png -- something overlapping the character, like ice at their feet

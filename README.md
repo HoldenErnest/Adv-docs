@@ -26,6 +26,8 @@ These are all the docs for the systems for the adventure game
 
 ### Examples
  - [Example Quest](./EXAMPLE_Quest.md)
+ - [Example Skills](./SkillPolymorphism/EXAMPLE_skills.md)
+ - [Example Effects](./EffectPolymorphism/EXAMPLE_effects.md)
 
 ## Tools:
  - [Function Finder](https://www.dcode.fr/function-equation-finder)
