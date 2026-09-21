@@ -10,6 +10,7 @@
 
 ### Simplistic
  - The only actions a [Character](./Character.md) can take are [Skills](./Skill.md) (and movement I guess)
+ - generally Low TTK. (I dont want characters with huge spells to do almost no damage (obviously unless theyre against great resist and health))
 
 ### Expansive
  - New Skills can be created with just a JSON object and an icon image/sounds
