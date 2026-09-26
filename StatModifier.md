@@ -12,8 +12,10 @@ All of these must be FLOATS since they potentially can be used as multipliers
  - `Constitution` - increase Max health
  - `Strength` - increase in physical damage (also slows less when wearing heavy gear)
  - `Intelligence` - increase in any magic type damage. Can also affect [Dialogue](./Dialogue.md)
- - `Evasion` - polynomial decrease to each points effect? 50% evade at 50 points? -- ignored by true damage
- - `Agility` - affects [Controller](./Controller.md) speed value. `weight` can also lower this depending on `strength`
+ - `Agility` - +evasion and speed
+ - `Technique` - slight cooldown reduction
+ - `evasion` - evasion increase. 
+ - `speed` - affects [Controller](./Controller.md) speed value. `weight` can also lower this depending on `strength`
  - `Armor` - % physical resist [Skill](./Skill.md) damage
  - `gas_resist`
  - `liquid_resist`
@@ -34,7 +36,7 @@ All of these must be FLOATS since they potentially can be used as multipliers
         - `overweight` : how much extra weight youre carrying over what you can max. (by default you get 20 points before youre overweight. 20 + 2*str )
         - 0 weight to 200 weight. (~50 per armor piece, then maybe 20 for a sword or something)
         strength reduces weight by 2 each point. (if you have the heaviest armor you will be overweight by ~80 still even at max level) (20 + 100) reduced
-        - most good midgame armors should be about 30-50 armor. meaning for mobility you will probably want 5-10 points in str.
+        - most good midgame armors should be about 30-50 weight. meaning for mobility you will probably want 5-10 points in str.
         - overweight speed change is -2% per point. up to a max of -90%.. This is applied AFTER all your other speed modifiers
     
     - reflect:
